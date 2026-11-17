@@ -1,0 +1,416 @@
+{
+  "draft_questions": [
+    {
+      "id": "half34",
+      "kind": "scale",
+      "rarity": "Saver Pan",
+      "prompt": "Halve this recipe: 8 servings down to 4",
+      "sub": "Flour calls for 3/4 cup. Pick the scaled pan.",
+      "options": [
+        "1/4 cup",
+        "3/8 cup",
+        "1/2 cup"
+      ],
+      "answer": "3/8 cup",
+      "misconception": "Halving is not quartering: 1/2 of 3/4 = 3/8, not 1/4.",
+      "trace": "Halving 3/4 cup draft offers 3/8 as correct and logs trace"
+    },
+    {
+      "id": "double23",
+      "kind": "scale",
+      "rarity": "Feast Pan",
+      "prompt": "Double this recipe: 6 servings up to 12",
+      "sub": "Milk calls for 2/3 cup. Pick the scaled pan.",
+      "options": [
+        "4/6 cup",
+        "1 1/4 cups",
+        "1 1/3 cups"
+      ],
+      "answer": "1 1/3 cups",
+      "misconception": "Doubling 2/3 means 4/3 = 1 1/3, not 4/6 (unreduced) or 1 1/4.",
+      "trace": "Doubling 2/3 cup draft offers 1 1/3 cups as correct"
+    },
+    {
+      "id": "half12",
+      "kind": "scale",
+      "rarity": "Saver Pan",
+      "prompt": "Halve this recipe: 4 servings down to 2",
+      "sub": "Sugar calls for 1/2 cup. Pick the scaled pan.",
+      "options": [
+        "1/4 cup",
+        "1/3 cup",
+        "1 cup"
+      ],
+      "answer": "1/4 cup",
+      "misconception": "1/2 of 1/2 = 1/4. Halving twice is quartering, not thirding.",
+      "trace": "halving 1/2 cup draft offers 1/4 correct trace"
+    },
+    {
+      "id": "double34",
+      "kind": "scale",
+      "rarity": "Feast Pan",
+      "prompt": "Double this recipe: 4 servings up to 8",
+      "sub": "Broth calls for 3/4 cup. Pick the scaled pan.",
+      "options": [
+        "6/4 cups raw",
+        "1 1/4 cups",
+        "1 1/2 cups"
+      ],
+      "answer": "1 1/2 cups",
+      "misconception": "2 x 3/4 = 6/4 = 1 1/2. Mixed numbers beat raw improper fractions.",
+      "trace": "doubling 3/4 cup draft offers 1 1/2 correct trace"
+    },
+    {
+      "id": "half23",
+      "kind": "scale",
+      "rarity": "Saver Pan",
+      "prompt": "Halve this recipe: 6 servings down to 3",
+      "sub": "Oil calls for 2/3 cup. Pick the scaled pan.",
+      "options": [
+        "1/3 cup",
+        "1/2 cup",
+        "2/6 cup raw"
+      ],
+      "answer": "1/3 cup",
+      "misconception": "1/2 of 2/3 = 2/6 = 1/3. Always reduce to the simplest pan.",
+      "trace": "halving 2/3 cup draft offers 1/3 correct trace"
+    },
+    {
+      "id": "triple12",
+      "kind": "scale",
+      "rarity": "Feast Pan",
+      "prompt": "Triple this recipe: 2 servings up to 6",
+      "sub": "Cream calls for 1/2 cup. Pick the scaled pan.",
+      "options": [
+        "1 1/4 cups",
+        "1 1/2 cups",
+        "3/2 cups raw"
+      ],
+      "answer": "1 1/2 cups",
+      "misconception": "3 x 1/2 = 3/2 = 1 1/2. Serve the mixed number, not the raw fraction.",
+      "trace": "tripling 1/2 cup draft offers 1 1/2 correct trace"
+    },
+    {
+      "id": "half13",
+      "kind": "scale",
+      "rarity": "Saver Pan",
+      "prompt": "Halve this recipe: 8 servings down to 4",
+      "sub": "Honey calls for 1/3 cup. Pick the scaled pan.",
+      "options": [
+        "1/6 cup",
+        "1/4 cup",
+        "2/3 cup"
+      ],
+      "answer": "1/6 cup",
+      "misconception": "1/2 of 1/3 = 1/6. Multiply numerators AND denominators.",
+      "trace": "halving 1/3 cup draft offers 1/6 correct trace"
+    },
+    {
+      "id": "double12t",
+      "kind": "scale",
+      "rarity": "Feast Pan",
+      "prompt": "Double this recipe: 3 servings up to 6",
+      "sub": "Butter calls for 1 1/2 cups. Pick the scaled pan.",
+      "options": [
+        "2 cups",
+        "3 cups",
+        "2 1/2 cups"
+      ],
+      "answer": "3 cups",
+      "misconception": "2 x 1 1/2 = 2 x 3/2 = 3. Convert mixed numbers first.",
+      "trace": "doubling 1 1/2 cups draft offers 3 cups correct trace"
+    },
+    {
+      "id": "third34",
+      "kind": "scale",
+      "rarity": "Saver Pan",
+      "prompt": "Third this recipe: 9 servings down to 3",
+      "sub": "Stock calls for 3/4 cup. Pick the scaled pan.",
+      "options": [
+        "1/3 cup",
+        "1/2 cup",
+        "1/4 cup"
+      ],
+      "answer": "1/4 cup",
+      "misconception": "1/3 of 3/4 = 3/12 = 1/4. The 3s cancel \u2014 do not just halve.",
+      "trace": "thirding 3/4 cup draft offers 1/4 correct trace"
+    },
+    {
+      "id": "double56",
+      "kind": "scale",
+      "rarity": "Feast Pan",
+      "prompt": "Double this recipe: 5 servings up to 10",
+      "sub": "Sauce calls for 5/6 cup. Pick the scaled pan.",
+      "options": [
+        "1 1/2 cups",
+        "1 2/3 cups",
+        "10/6 cups raw"
+      ],
+      "answer": "1 2/3 cups",
+      "misconception": "2 x 5/6 = 10/6 = 1 4/6 = 1 2/3. Reduce after scaling.",
+      "trace": "doubling 5/6 cup draft offers 1 2/3 correct trace"
+    },
+    {
+      "id": "tbsp2tsp",
+      "kind": "convert",
+      "rarity": "Swift Pan",
+      "prompt": "Dash prep: convert 2 tbsp to tsp",
+      "sub": "Small spoons only. Pick the right measure.",
+      "options": [
+        "6 tsp",
+        "9 tsp",
+        "5 tsp"
+      ],
+      "answer": "6 tsp",
+      "misconception": "1 tbsp = 3 tsp, so 2 tbsp = 6 tsp. Not 9 (that is 3 tbsp).",
+      "trace": "conversion 2 tbsp equals 6 tsp correct trace"
+    },
+    {
+      "id": "cupTbsp",
+      "kind": "convert",
+      "rarity": "Swift Pan",
+      "prompt": "Big batch: convert 1 cup to tbsp",
+      "sub": "Pick the right measure.",
+      "options": [
+        "8 tbsp",
+        "12 tbsp",
+        "16 tbsp"
+      ],
+      "answer": "16 tbsp",
+      "misconception": "1 cup = 16 tbsp. 8 tbsp is only half a cup.",
+      "trace": "conversion 1 cup equals 16 tbsp correct trace"
+    },
+    {
+      "id": "cupTsp",
+      "kind": "convert",
+      "rarity": "Swift Pan",
+      "prompt": "Tiny spoons: convert 1 cup to tsp",
+      "sub": "Pick the right measure.",
+      "options": [
+        "36 tsp",
+        "30 tsp",
+        "48 tsp"
+      ],
+      "answer": "48 tsp",
+      "misconception": "1 cup = 48 tsp (16 x 3). 36 is 12 tbsp, a short cup.",
+      "trace": "conversion 1 cup equals 48 tsp correct trace"
+    },
+    {
+      "id": "cupMl",
+      "kind": "convert",
+      "rarity": "Swift Pan",
+      "prompt": "Metric order: convert 1 cup to mL",
+      "sub": "Pick the closest measure.",
+      "options": [
+        "320 mL",
+        "237 mL",
+        "150 mL"
+      ],
+      "answer": "237 mL",
+      "misconception": "1 cup is about 237 mL. 150 is barely half a cup.",
+      "trace": "conversion 1 cup approx 237 mL correct trace"
+    },
+    {
+      "id": "tspTbsp",
+      "kind": "convert",
+      "rarity": "Swift Pan",
+      "prompt": "Scale down: convert 3 tsp to tbsp",
+      "sub": "Pick the right measure.",
+      "options": [
+        "1 tbsp",
+        "2 tbsp",
+        "1/2 tbsp"
+      ],
+      "answer": "1 tbsp",
+      "misconception": "3 tsp = 1 tbsp. Dividing, not doubling.",
+      "trace": "conversion 3 tsp equals 1 tbsp correct trace"
+    },
+    {
+      "id": "halfCupTbsp",
+      "kind": "convert",
+      "rarity": "Swift Pan",
+      "prompt": "Half batch: convert 1/2 cup to tbsp",
+      "sub": "Pick the right measure.",
+      "options": [
+        "12 tbsp",
+        "8 tbsp",
+        "6 tbsp"
+      ],
+      "answer": "8 tbsp",
+      "misconception": "Half of 16 tbsp is 8 tbsp. Halve the cup AND the count.",
+      "trace": "conversion 1/2 cup equals 8 tbsp correct trace"
+    },
+    {
+      "id": "qcupTsp",
+      "kind": "convert",
+      "rarity": "Swift Pan",
+      "prompt": "Quarter batch: convert 1/4 cup to tsp",
+      "sub": "Pick the right measure.",
+      "options": [
+        "9 tsp",
+        "16 tsp",
+        "12 tsp"
+      ],
+      "answer": "12 tsp",
+      "misconception": "1/4 of 48 tsp is 12 tsp. A quarter cup is 4 tbsp = 12 tsp.",
+      "trace": "conversion 1/4 cup equals 12 tsp correct trace"
+    },
+    {
+      "id": "tbspMl",
+      "kind": "convert",
+      "rarity": "Swift Pan",
+      "prompt": "Metric dash: convert 2 tbsp to mL",
+      "sub": "Pick the closest measure.",
+      "options": [
+        "30 mL",
+        "60 mL",
+        "15 mL"
+      ],
+      "answer": "30 mL",
+      "misconception": "1 tbsp is about 15 mL, so 2 tbsp is about 30 mL.",
+      "trace": "conversion 2 tbsp approx 30 mL correct trace"
+    }
+  ],
+  "gate_questions": [
+    {
+      "id": "g-tbsp",
+      "ask": "Pass the gate: 2 tbsp = ?",
+      "lanes": [
+        "9 tsp",
+        "6 tsp"
+      ],
+      "answer": "6 tsp",
+      "why": "Correct: 2 tbsp = 6 tsp because 1 tbsp = 3 tsp.",
+      "trace": "gate 2 tbsp equals 6 tsp correct trace"
+    },
+    {
+      "id": "g-cup",
+      "ask": "Pass the gate: 1 cup = ?",
+      "lanes": [
+        "16 tbsp",
+        "12 tbsp"
+      ],
+      "answer": "16 tbsp",
+      "why": "Correct: 1 cup = 16 tbsp. 12 tbsp is only 3/4 cup.",
+      "trace": "gate 1 cup equals 16 tbsp correct trace"
+    },
+    {
+      "id": "g-ml",
+      "ask": "Pass the gate: 1 cup = ?",
+      "lanes": [
+        "150 mL",
+        "237 mL"
+      ],
+      "answer": "237 mL",
+      "why": "Correct: 1 cup is about 237 mL.",
+      "trace": "gate 1 cup approx 237 mL correct trace"
+    },
+    {
+      "id": "g-tsp",
+      "ask": "Pass the gate: 3 tsp = ?",
+      "lanes": [
+        "1 tbsp",
+        "2 tbsp"
+      ],
+      "answer": "1 tbsp",
+      "why": "Correct: 3 tsp = 1 tbsp. That is the spoon bridge.",
+      "trace": "gate 3 tsp equals 1 tbsp correct trace"
+    },
+    {
+      "id": "g-cup-tsp",
+      "ask": "Pass the gate: 1 cup = ?",
+      "lanes": [
+        "48 tsp",
+        "30 tsp"
+      ],
+      "answer": "48 tsp",
+      "why": "Correct: 1 cup = 48 tsp (16 tbsp x 3 tsp).",
+      "trace": "gate 1 cup equals 48 tsp correct trace"
+    },
+    {
+      "id": "g-half-cup",
+      "ask": "Pass the gate: 1/2 cup = ?",
+      "lanes": [
+        "6 tbsp",
+        "8 tbsp"
+      ],
+      "answer": "8 tbsp",
+      "why": "Correct: half of 16 tbsp is 8 tbsp.",
+      "trace": "gate 1/2 cup equals 8 tbsp correct trace"
+    },
+    {
+      "id": "g-quarter-tsp",
+      "ask": "Pass the gate: 1/4 cup = ?",
+      "lanes": [
+        "12 tsp",
+        "16 tsp"
+      ],
+      "answer": "12 tsp",
+      "why": "Correct: 1/4 cup = 4 tbsp = 12 tsp.",
+      "trace": "gate 1/4 cup equals 12 tsp correct trace"
+    },
+    {
+      "id": "g-tbsp-ml",
+      "ask": "Pass the gate: 1 tbsp = ?",
+      "lanes": [
+        "5 mL",
+        "15 mL"
+      ],
+      "answer": "15 mL",
+      "why": "Correct: 1 tbsp is about 15 mL (3 tsp).",
+      "trace": "gate 1 tbsp approx 15 mL correct trace"
+    },
+    {
+      "id": "g-4tbsp",
+      "ask": "Pass the gate: 4 tbsp = ?",
+      "lanes": [
+        "1/4 cup",
+        "1/3 cup"
+      ],
+      "answer": "1/4 cup",
+      "why": "Correct: 4 tbsp = 1/4 cup (16 / 4).",
+      "trace": "gate 4 tbsp equals 1/4 cup correct trace"
+    },
+    {
+      "id": "g-2cup-ml",
+      "ask": "Pass the gate: 2 cups = ?",
+      "lanes": [
+        "500 mL",
+        "474 mL"
+      ],
+      "answer": "474 mL",
+      "why": "Correct: 2 x 237 mL = 474 mL. Do not round early.",
+      "trace": "gate 2 cups approx 474 mL correct trace"
+    }
+  ],
+  "waves": [
+    {
+      "id": "wave-1",
+      "mechanics": "Slow grease fires drift; 2 tables, patience 55s; sprayer reload 1.6s"
+    },
+    {
+      "id": "wave-2",
+      "mechanics": "Faster fires chase at 80 speed; falling pans telegraphed; 3 tables"
+    },
+    {
+      "id": "wave-3",
+      "mechanics": "Spills slow the chef; draft cadence tightens; 3 tables, patience 45s"
+    },
+    {
+      "id": "wave-4",
+      "mechanics": "Fire + pan combos; gate cadence tightens; 4 tables, choose your triage"
+    },
+    {
+      "id": "wave-5",
+      "mechanics": "Full chaos: chasing fires, spills, pans; 4 tables, patience 38s"
+    },
+    {
+      "id": "elite-inspector",
+      "mechanics": "Elite Health Inspector mid-check: armored, 4 bites, patrols the pass at minute 6"
+    },
+    {
+      "id": "vip-boss",
+      "mechanics": "VIP Boss Rush finale: 8 patience, demands 2-bite tables, tests full build"
+    }
+  ]
+}
