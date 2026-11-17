@@ -1,0 +1,677 @@
+{
+  "game": "Above Target: T2D Intensification",
+  "counts": {
+    "patient_case": 12,
+    "titration_challenge": 12,
+    "counseling_branch": 36,
+    "red_herring": 24
+  },
+  "quotas": {
+    "patient_case": 12,
+    "titration_challenge": 12,
+    "counseling_branch": 18,
+    "red_herring": 24
+  },
+  "items": [
+    {
+      "kind": "patient_case",
+      "id": "c01",
+      "name": "Rosa Alvarez, 58yo, A1C 8.7%",
+      "comorb": "ASCVD: prior MI"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c01-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Rosa Alvarez.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c01-br1",
+      "prompt": "Will this shot upset my stomach like my cousin had?",
+      "options": [
+        "Nausea is common early, usually fades; small low-fat meals help.",
+        "If you feel sick, stop the drug right away."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c01-br2",
+      "prompt": "I already take insulin. Why add another drug?",
+      "options": [
+        "This protects the heart, limits lows, and helps weight.",
+        "It works the same as insulin, just costs more."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c01-br3",
+      "prompt": "How long before we know it works?",
+      "options": [
+        "We recheck A1C in 3 months and adjust the dose stepwise.",
+        "One week should be enough to judge."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c01-h1",
+      "title": "Push basal to 34 units",
+      "lesson": "Stacking insulin trades A1C points for weight gain and lows. A GLP-1 RA with ASCVD benefit treats the whole risk."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c01-h2",
+      "title": "Add gliclazide for speed",
+      "lesson": "Sulfonylureas add hypo risk without cardiovascular benefit. Prefer the incretin path here."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c02",
+      "name": "Marco Garcia, 47yo, A1C 8.4%",
+      "comorb": "Obesity: BMI 36"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c02-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Marco Garcia.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c02-br1",
+      "prompt": "Shots every week sound like a hassle.",
+      "options": [
+        "One quick weekly dose beats daily lows and weight gain.",
+        "Then take a daily pill that works less well."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c02-br2",
+      "prompt": "Will I feel sick at work?",
+      "options": [
+        "Start low, eat light on dose days; nausea usually fades.",
+        "Call in sick the day after each dose."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c02-br3",
+      "prompt": "What if my appetite vanishes?",
+      "options": [
+        "Less hunger is expected; eat protein and stay hydrated.",
+        "Stop eating until the nausea passes."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c02-h1",
+      "title": "Start basal insulin",
+      "lesson": "With obesity and no ASCVD, a weight-friendly incretin beats insulin stacking."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c02-h2",
+      "title": "Add glipizide",
+      "lesson": "Hypo risk at a physical job rules out sulfonylurea stacking."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c03",
+      "name": "Adaeze Okafor, 52yo, A1C 9.2%",
+      "comorb": "Obesity BMI 38, high ASCVD risk"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c03-titr",
+      "prompt": "Choose the starting and escalation plan for weekly dual GIP/GLP-1 RA in Adaeze Okafor.",
+      "options": [
+        "Start low on weekly dual GIP/GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly dual GIP/GLP-1 RA",
+        "Start low on weekly dual GIP/GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c03-br1",
+      "prompt": "Strong drug, strong side effects?",
+      "options": [
+        "Potency comes with titration: start low, rise slowly.",
+        "Start at the top dose to get it over with."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c03-br2",
+      "prompt": "My sister quit hers from nausea.",
+      "options": [
+        "We plan for nausea: light meals, fluids, dose holds.",
+        "Then this drug is not for you either."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c03-br3",
+      "prompt": "Do I stop my night insulin?",
+      "options": [
+        "Keep basal for now; we reassess as the incretin titrates.",
+        "Stop everything tonight and switch."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c03-h1",
+      "title": "Push basal to 40 units",
+      "lesson": "When basal already fails, stacking more insulin compounds harm. Potent incretin first."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c03-h2",
+      "title": "Add a sulfonylurea",
+      "lesson": "Sulfonylurea stacking worsens exactly her two problems: weight and lows."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c04",
+      "name": "James Brown, 61yo, A1C 9.4%",
+      "comorb": "Obesity BMI 37, SU lows"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c04-titr",
+      "prompt": "Choose the starting and escalation plan for weekly dual GIP/GLP-1 RA in James Brown.",
+      "options": [
+        "Start low on weekly dual GIP/GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly dual GIP/GLP-1 RA",
+        "Start low on weekly dual GIP/GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c04-br1",
+      "prompt": "Stop a diabetes pill while my sugar is high?",
+      "options": [
+        "The new drug covers control with far less hypo risk.",
+        "Keep both at full dose to be safe."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c04-br2",
+      "prompt": "Nausea plus driving for work worries me.",
+      "options": [
+        "Dose Friday evening, light meals, fluids; holds if needed.",
+        "Skip doses before long drives."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c04-br3",
+      "prompt": "Will I gain more weight?",
+      "options": [
+        "This path usually trims weight as appetite steadies.",
+        "Weight gain is unavoidable with better control."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c04-h1",
+      "title": "Add basal on top of glipizide",
+      "lesson": "Never stack insulin onto a failing SU. Replace the hypo driver with an incretin."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c04-h2",
+      "title": "Keep glipizide for extra lowering",
+      "lesson": "Continuing the SU is the classic hypo trap. Stop it when adding the incretin."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c05",
+      "name": "Lakshmi Patel, 55yo, A1C 8.1%",
+      "comorb": "CKD stage 3, prior nocturnal low"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c05-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Lakshmi Patel.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c05-br1",
+      "prompt": "I fear night lows more than anything.",
+      "options": [
+        "Tapering glipizide removes the overnight driver.",
+        "Eat a big bedtime snack to cover the SU."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c05-br2",
+      "prompt": "Is this safe for my kidneys?",
+      "options": [
+        "Yes, with hydration and sick-day guidance; we monitor.",
+        "Kidney patients cannot use new drugs."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c05-br3",
+      "prompt": "Tapering sounds complicated.",
+      "options": [
+        "Simple schedule: halve for 2 weeks, then stop, with checks.",
+        "Then keep the SU to keep it simple."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c05-h1",
+      "title": "Raise basal to 20 units",
+      "lesson": "Nocturnal lows on SU plus CKD forbid insulin stacking. De-escalate the SU first."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c05-h2",
+      "title": "Keep glipizide unchanged",
+      "lesson": "CKD prolongs SU action. Taper it as the incretin starts."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c06",
+      "name": "Priya Davis, 63yo, A1C 8.6%",
+      "comorb": "Obesity BMI 34, lives alone"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c06-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Priya Davis.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c06-br1",
+      "prompt": "Who helps me if I go low alone?",
+      "options": [
+        "Stopping glyburide removes most low risk; neighbor check-ins help.",
+        "Keep candy in every room and hope."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c06-br2",
+      "prompt": "Needles frighten me.",
+      "options": [
+        "A tiny weekly pen with nurse coaching the first dose.",
+        "Then stay on pills that harm you."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c06-br3",
+      "prompt": "Will my stomach handle it at my age?",
+      "options": [
+        "Start low, eat light, fluids; we hold the dose if needed.",
+        "Older adults should avoid new drugs."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c06-h1",
+      "title": "Add basal to glyburide",
+      "lesson": "Living alone with prior prolonged low forbids stacking. Replace the SU."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c06-h2",
+      "title": "Keep glyburide for stability",
+      "lesson": "Familiar is not safe. Stop the long-acting SU when intensifying."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c07",
+      "name": "Mei Chen, 49yo, A1C 8.9%",
+      "comorb": "Obesity BMI 35, shift worker"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c07-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Mei Chen.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c07-br1",
+      "prompt": "Night shifts ruin every routine.",
+      "options": [
+        "Weekly dosing ignores shift chaos; same weekday each week.",
+        "Take it whenever you remember."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c07-br2",
+      "prompt": "I snack all night to stay awake.",
+      "options": [
+        "Protein snacks, water, planned light meals on dose days.",
+        "Skip night meals to offset the drug."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c07-br3",
+      "prompt": "Nausea on shift sounds awful.",
+      "options": [
+        "Start low, dose before days off, light foods first.",
+        "Power through at full dose."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c07-h1",
+      "title": "Push basal to 30 units",
+      "lesson": "Basal stacking feeds weight gain without fixing meal chaos. An incretin steadies both."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c07-h2",
+      "title": "Add glimepiride",
+      "lesson": "Rigid insulin secretion plus chaotic meals equals lows. Glucose-dependent action fits better."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c08",
+      "name": "Thanh Nguyen, 66yo, A1C 8.2%",
+      "comorb": "ASCVD: prior stroke, elderly"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c08-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Thanh Nguyen.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c08-br1",
+      "prompt": "At my age, new drugs scare me.",
+      "options": [
+        "Start low, go slow, daughter joins the first dose.",
+        "Older patients should avoid change."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c08-br2",
+      "prompt": "Will this drop my sugar too low?",
+      "options": [
+        "It acts only when glucose is high; stopping SU cuts lows.",
+        "All diabetes drugs cause lows equally."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c08-br3",
+      "prompt": "What about my stroke risk?",
+      "options": [
+        "This class protects vessels while lowering glucose.",
+        "Sugar control alone prevents strokes."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c08-h1",
+      "title": "Start basal, keep glipizide",
+      "lesson": "Falls plus SU forbid stacking. Replace the SU with a protected incretin."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c08-h2",
+      "title": "Keep glipizide unchanged",
+      "lesson": "Stability on a harmful drug is not stability. Stop the SU."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c09",
+      "name": "Omar Hassan, 57yo, A1C 9%",
+      "comorb": "ASCVD: coronary disease"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c09-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Omar Hassan.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c09-br1",
+      "prompt": "Fewer shots, you said. This is a shot.",
+      "options": [
+        "One weekly pen may let basal drop later; net fewer lows.",
+        "Then add three mealtime shots instead."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c09-br2",
+      "prompt": "Nausea behind the wheel?",
+      "options": [
+        "Evening dosing, light meals, fluids; hold if ill.",
+        "Drive through the nausea."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c09-br3",
+      "prompt": "How does this help my heart?",
+      "options": [
+        "Proven fewer heart events plus weight and pressure gains.",
+        "It only lowers sugar; the heart is separate."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c09-h1",
+      "title": "Add mealtime insulin",
+      "lesson": "More injections without ASCVD benefit miss his two goals: fewer shots, safer heart."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c09-h2",
+      "title": "Add gliclazide",
+      "lesson": "Driving lows plus coronary disease rule out SU stacking."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c10",
+      "name": "Karen Williams, 44yo, A1C 7.9%",
+      "comorb": "Obesity BMI 39, teacher"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c10-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Karen Williams.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c10-br1",
+      "prompt": "Lows in front of my class mortify me.",
+      "options": [
+        "Stopping glyburide ends most school-day lows.",
+        "Keep candy on your desk forever."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c10-br2",
+      "prompt": "Will I lose weight on this?",
+      "options": [
+        "Most lose some weight with steadier appetite.",
+        "Expect dramatic rapid loss."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c10-br3",
+      "prompt": "Weekly shots during term?",
+      "options": [
+        "Sunday evening routine with the lunch planner.",
+        "Pause treatment during term time."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c10-h1",
+      "title": "Start basal insulin",
+      "lesson": "A small gap with obesity and lows favors incretin, not insulin."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c10-h2",
+      "title": "Raise glyburide to 5 mg",
+      "lesson": "More SU means more mid-morning shakes. Stop it instead."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c11",
+      "name": "Elena Rodriguez, 60yo, A1C 8.3%",
+      "comorb": "Hypo-risk: caregiver, erratic meals"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c11-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in Elena Rodriguez.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c11-br1",
+      "prompt": "I skip lunch most days.",
+      "options": [
+        "Glucose-dependent action stays safe when meals slip.",
+        "Force a big lunch daily."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c11-br2",
+      "prompt": "Tapering while caregiving feels risky.",
+      "options": [
+        "Written taper card plus logbook checks each week.",
+        "Keep everything unchanged then."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c11-br3",
+      "prompt": "Nausea while lifting my mother?",
+      "options": [
+        "Dose on quiet evenings, light meals, fluids ready.",
+        "Skip the drug on hard days."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c11-h1",
+      "title": "Raise basal to 18 units",
+      "lesson": "Erratic meals plus stacked insulin guarantees lows. De-escalate the SU."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c11-h2",
+      "title": "Keep glipizide unchanged",
+      "lesson": "Her schedule cannot fit rigid insulin secretion. Taper the SU."
+    },
+    {
+      "kind": "patient_case",
+      "id": "c12",
+      "name": "David Kim, 53yo, A1C 9.6%",
+      "comorb": "ASCVD: prior MI, BMI 33"
+    },
+    {
+      "kind": "titration_challenge",
+      "id": "c12-titr",
+      "prompt": "Choose the starting and escalation plan for weekly GLP-1 RA in David Kim.",
+      "options": [
+        "Start low on weekly GLP-1 RA, escalate stepwise per label",
+        "Start at the full maintenance dose of weekly GLP-1 RA",
+        "Start low on weekly GLP-1 RA and never escalate"
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c12-br1",
+      "prompt": "9.6 sounds terrible. Is a shot enough?",
+      "options": [
+        "Yes: strong lowering plus heart protection, titrated up.",
+        "Only insulin can fix numbers this high."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c12-br2",
+      "prompt": "What if nausea makes me quit?",
+      "options": [
+        "We expect it, feed through it, hold doses as needed.",
+        "Quit and try again next year."
+      ]
+    },
+    {
+      "kind": "counseling_branch",
+      "id": "c12-br3",
+      "prompt": "How soon do we recheck?",
+      "options": [
+        "A1C in 3 months with weight and hypo review.",
+        "Recheck tomorrow."
+      ]
+    },
+    {
+      "kind": "red_herring",
+      "id": "c12-h1",
+      "title": "Start basal plus prandial insulin",
+      "lesson": "Even at 9.6%, ASCVD favors an incretin first unless catabolic crisis. Protect the heart."
+    },
+    {
+      "kind": "red_herring",
+      "id": "c12-h2",
+      "title": "Start a sulfonylurea",
+      "lesson": "Starting an SU here buys lows, not heart protection."
+    }
+  ]
+}
