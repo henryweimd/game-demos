@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shape Snap 3D: VSEPR Workshop</title>
+<link rel="icon" type="image/svg+xml" href="./assets/favicon-BMlZacp9.ico">
+<style>
+  html, body { margin: 0; padding: 0; background: #0B1220; min-height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: Verdana, Arial, sans-serif; }
+  #game { position: relative; width: min(100vw, 1280px); }
+  #game canvas { display: block; width: 100% !important; height: auto !important; }
+  #hud { position: absolute; top: 0; left: 0; right: 0; display: flex; gap: 10px; align-items: center; justify-content: space-between; padding: 10px 14px; pointer-events: none; }
+  #hud .strip { display: flex; gap: 10px; align-items: center; background: #1E293B; color: #F8FAFC; border: 2px solid #22D3EE; border-radius: 12px; padding: 8px 14px; font-size: 16px; font-weight: bold; }
+  #panel { position: absolute; left: 12px; top: 64px; width: 330px; max-height: calc(100% - 150px); overflow: auto; background: #F8FAFC; color: #0B1220; border-radius: 14px; padding: 14px 16px; box-shadow: 0 4px 18px rgba(0,0,0,.45); }
+  #panel h2 { margin: 0 0 6px; font-size: 20px; color: #0B1220; }
+  #panel p { margin: 6px 0; font-size: 14px; line-height: 1.45; }
+  #panel .row { display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap; }
+  #btns { position: absolute; right: 12px; top: 64px; display: flex; flex-direction: column; gap: 10px; }
+  #err { position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%); min-width: 280px; max-width: 640px; background: #F8FAFC; color: #9F1239; border: 2px solid #F472B6; border-radius: 12px; padding: 8px 14px; font-size: 14px; font-weight: bold; text-align: center; display: none; }
+  button.act, select.act, input.act { pointer-events: auto; font-family: inherit; font-size: 15px; font-weight: bold; border-radius: 12px; border: 2px solid #0B1220; padding: 10px 14px; cursor: pointer; min-height: 44px; }
+  button.act { background: #22D3EE; color: #0B1220; }
+  button.act.alt { background: #A78BFA; color: #0B1220; }
+  button.act.gold { background: #FACC15; color: #0B1220; }
+  button.act.ghost { background: #F8FAFC; color: #0B1220; }
+  button.act:disabled { opacity: .45; cursor: default; }
+  button.act.pressed { outline: 3px solid #F8FAFC; }
+  img.chip { width: 40px; height: 40px; border-radius: 10px; background: #1E293B; vertical-align: middle; }
+  #modal { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; background: rgba(11,18,32,.55); }
+  #modal .card { background: #F8FAFC; color: #0B1220; border-radius: 16px; padding: 20px 22px; max-width: 520px; width: 90%; box-shadow: 0 6px 30px rgba(0,0,0,.5); }
+  #modal .card h2 { margin-top: 0; }
+  #toast { position: absolute; left: 50%; top: 64px; transform: translateX(-50%); background: #1E293B; color: #F8FAFC; border: 2px solid #FACC15; padding: 8px 16px; border-radius: 12px; font-weight: bold; display: none; }
+</style>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.187.0/examples/jsm/"
+} }
+</script>
+  <script type="module" crossorigin src="./assets/index-CLycJOWv.js"></script>
+</head>
+<body>
+<div id="game">
+  <div id="hud"><div class="strip" id="hud-left">Trial 1/5</div><div class="strip" id="hud-mid">Score 0 · Streak 0</div><div class="strip" id="hud-right">Timer 90</div></div>
+  <div id="toast"></div>
+  <div id="panel"></div>
+  <div id="btns"></div>
+  <div id="err"></div>
+  <div id="modal"><div class="card" id="modal-card"></div></div>
+</div>
+</body>
+</html>

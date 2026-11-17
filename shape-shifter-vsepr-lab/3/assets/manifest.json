@@ -1,0 +1,36 @@
+{
+  "style": "clean-modern",
+  "model": "muse-image-1.0",
+  "files": [
+    {
+      "id": "bg-title",
+      "file": "assets/bg-title.webp",
+      "bytes": 550164,
+      "size": "1024x512"
+    },
+    {
+      "id": "hero-molecule",
+      "file": "assets/hero-molecule.webp",
+      "bytes": 452338,
+      "size": "512x512"
+    },
+    {
+      "id": "icon-lonepair",
+      "file": "assets/icon-lonepair.webp",
+      "bytes": 481768,
+      "size": "128x128"
+    },
+    {
+      "id": "icon-angle",
+      "file": "assets/icon-angle.webp",
+      "bytes": 274766,
+      "size": "128x128"
+    },
+    {
+      "id": "badge-master",
+      "file": "assets/badge-master.webp",
+      "bytes": 543836,
+      "size": "256x256"
+    }
+  ]
+}

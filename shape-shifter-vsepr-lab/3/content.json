@@ -1,0 +1,628 @@
+{
+  "molecules": [
+    {
+      "id": "co2",
+      "formula": "CO2",
+      "name": "Carbon dioxide",
+      "center": "C",
+      "terms": [
+        "O",
+        "O"
+      ],
+      "sn": 2,
+      "axe": "AX2",
+      "geom": "linear",
+      "angle": 180
+    },
+    {
+      "id": "hcn",
+      "formula": "HCN",
+      "name": "Hydrogen cyanide",
+      "center": "C",
+      "terms": [
+        "H",
+        "N"
+      ],
+      "sn": 2,
+      "axe": "AX2",
+      "geom": "linear",
+      "angle": 180
+    },
+    {
+      "id": "bf3",
+      "formula": "BF3",
+      "name": "Boron trifluoride",
+      "center": "B",
+      "terms": [
+        "F",
+        "F",
+        "F"
+      ],
+      "sn": 3,
+      "axe": "AX3",
+      "geom": "trigonal planar",
+      "angle": 120
+    },
+    {
+      "id": "ch2o",
+      "formula": "CH2O",
+      "name": "Formaldehyde",
+      "center": "C",
+      "terms": [
+        "H",
+        "H",
+        "O"
+      ],
+      "sn": 3,
+      "axe": "AX3",
+      "geom": "trigonal planar",
+      "angle": 116
+    },
+    {
+      "id": "so2",
+      "formula": "SO2",
+      "name": "Sulfur dioxide",
+      "center": "S",
+      "terms": [
+        "O",
+        "O"
+      ],
+      "sn": 3,
+      "axe": "AX2E",
+      "geom": "bent",
+      "angle": 119
+    },
+    {
+      "id": "ch4",
+      "formula": "CH4",
+      "name": "Methane",
+      "center": "C",
+      "terms": [
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "sn": 4,
+      "axe": "AX4",
+      "geom": "tetrahedral",
+      "angle": 109.5
+    },
+    {
+      "id": "sicl4",
+      "formula": "SiCl4",
+      "name": "Silicon tetrachloride",
+      "center": "Si",
+      "terms": [
+        "Cl",
+        "Cl",
+        "Cl",
+        "Cl"
+      ],
+      "sn": 4,
+      "axe": "AX4",
+      "geom": "tetrahedral",
+      "angle": 109.5
+    },
+    {
+      "id": "nh3",
+      "formula": "NH3",
+      "name": "Ammonia",
+      "center": "N",
+      "terms": [
+        "H",
+        "H",
+        "H"
+      ],
+      "sn": 4,
+      "axe": "AX3E",
+      "geom": "trigonal pyramidal",
+      "angle": 107
+    },
+    {
+      "id": "pcl3",
+      "formula": "PCl3",
+      "name": "Phosphorus trichloride",
+      "center": "P",
+      "terms": [
+        "Cl",
+        "Cl",
+        "Cl"
+      ],
+      "sn": 4,
+      "axe": "AX3E",
+      "geom": "trigonal pyramidal",
+      "angle": 100
+    },
+    {
+      "id": "h2o",
+      "formula": "H2O",
+      "name": "Water",
+      "center": "O",
+      "terms": [
+        "H",
+        "H"
+      ],
+      "sn": 4,
+      "axe": "AX2E2",
+      "geom": "bent",
+      "angle": 104.5
+    },
+    {
+      "id": "h2s",
+      "formula": "H2S",
+      "name": "Hydrogen sulfide",
+      "center": "S",
+      "terms": [
+        "H",
+        "H"
+      ],
+      "sn": 4,
+      "axe": "AX2E2",
+      "geom": "bent",
+      "angle": 92
+    },
+    {
+      "id": "pcl5",
+      "formula": "PCl5",
+      "name": "Phosphorus pentachloride",
+      "center": "P",
+      "terms": [
+        "Cl",
+        "Cl",
+        "Cl",
+        "Cl",
+        "Cl"
+      ],
+      "sn": 5,
+      "axe": "AX5",
+      "geom": "trigonal bipyramidal",
+      "angle": 120
+    },
+    {
+      "id": "sf4",
+      "formula": "SF4",
+      "name": "Sulfur tetrafluoride",
+      "center": "S",
+      "terms": [
+        "F",
+        "F",
+        "F",
+        "F"
+      ],
+      "sn": 5,
+      "axe": "AX4E",
+      "geom": "seesaw",
+      "angle": 102
+    },
+    {
+      "id": "clf3",
+      "formula": "ClF3",
+      "name": "Chlorine trifluoride",
+      "center": "Cl",
+      "terms": [
+        "F",
+        "F",
+        "F"
+      ],
+      "sn": 5,
+      "axe": "AX3E2",
+      "geom": "T-shaped",
+      "angle": 87.5
+    },
+    {
+      "id": "xef2",
+      "formula": "XeF2",
+      "name": "Xenon difluoride",
+      "center": "Xe",
+      "terms": [
+        "F",
+        "F"
+      ],
+      "sn": 5,
+      "axe": "AX2E3",
+      "geom": "linear",
+      "angle": 180
+    },
+    {
+      "id": "sf6",
+      "formula": "SF6",
+      "name": "Sulfur hexafluoride",
+      "center": "S",
+      "terms": [
+        "F",
+        "F",
+        "F",
+        "F",
+        "F",
+        "F"
+      ],
+      "sn": 6,
+      "axe": "AX6",
+      "geom": "octahedral",
+      "angle": 90
+    },
+    {
+      "id": "brf5",
+      "formula": "BrF5",
+      "name": "Bromine pentafluoride",
+      "center": "Br",
+      "terms": [
+        "F",
+        "F",
+        "F",
+        "F",
+        "F"
+      ],
+      "sn": 6,
+      "axe": "AX5E",
+      "geom": "square pyramidal",
+      "angle": 85
+    },
+    {
+      "id": "xef4",
+      "formula": "XeF4",
+      "name": "Xenon tetrafluoride",
+      "center": "Xe",
+      "terms": [
+        "F",
+        "F",
+        "F",
+        "F"
+      ],
+      "sn": 6,
+      "axe": "AX4E2",
+      "geom": "square planar",
+      "angle": 90
+    }
+  ],
+  "snap_trials": [
+    {
+      "id": "snap-co2",
+      "moleculeId": "co2",
+      "slots": 2,
+      "lonePairs": 0
+    },
+    {
+      "id": "snap-hcn",
+      "moleculeId": "hcn",
+      "slots": 2,
+      "lonePairs": 0
+    },
+    {
+      "id": "snap-bf3",
+      "moleculeId": "bf3",
+      "slots": 3,
+      "lonePairs": 0
+    },
+    {
+      "id": "snap-ch2o",
+      "moleculeId": "ch2o",
+      "slots": 3,
+      "lonePairs": 0
+    },
+    {
+      "id": "snap-so2",
+      "moleculeId": "so2",
+      "slots": 2,
+      "lonePairs": 1
+    },
+    {
+      "id": "snap-ch4",
+      "moleculeId": "ch4",
+      "slots": 4,
+      "lonePairs": 0
+    },
+    {
+      "id": "snap-sicl4",
+      "moleculeId": "sicl4",
+      "slots": 4,
+      "lonePairs": 0
+    },
+    {
+      "id": "snap-nh3",
+      "moleculeId": "nh3",
+      "slots": 3,
+      "lonePairs": 1
+    },
+    {
+      "id": "snap-pcl3",
+      "moleculeId": "pcl3",
+      "slots": 3,
+      "lonePairs": 1
+    },
+    {
+      "id": "snap-h2o",
+      "moleculeId": "h2o",
+      "slots": 2,
+      "lonePairs": 2
+    },
+    {
+      "id": "snap-h2s",
+      "moleculeId": "h2s",
+      "slots": 2,
+      "lonePairs": 2
+    },
+    {
+      "id": "snap-pcl5",
+      "moleculeId": "pcl5",
+      "slots": 5,
+      "lonePairs": 0
+    },
+    {
+      "id": "snap-sf4",
+      "moleculeId": "sf4",
+      "slots": 4,
+      "lonePairs": 1
+    },
+    {
+      "id": "snap-clf3",
+      "moleculeId": "clf3",
+      "slots": 3,
+      "lonePairs": 2
+    },
+    {
+      "id": "snap-xef2",
+      "moleculeId": "xef2",
+      "slots": 2,
+      "lonePairs": 3
+    },
+    {
+      "id": "snap-sf6",
+      "moleculeId": "sf6",
+      "slots": 6,
+      "lonePairs": 0
+    },
+    {
+      "id": "snap-brf5",
+      "moleculeId": "brf5",
+      "slots": 5,
+      "lonePairs": 1
+    },
+    {
+      "id": "snap-xef4",
+      "moleculeId": "xef4",
+      "slots": 4,
+      "lonePairs": 2
+    }
+  ],
+  "angle_squeeze_challenges": [
+    {
+      "id": "angle-co2",
+      "moleculeId": "co2",
+      "target": 180,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-hcn",
+      "moleculeId": "hcn",
+      "target": 180,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-bf3",
+      "moleculeId": "bf3",
+      "target": 120,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-ch2o",
+      "moleculeId": "ch2o",
+      "target": 116,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-so2",
+      "moleculeId": "so2",
+      "target": 119,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-ch4",
+      "moleculeId": "ch4",
+      "target": 109.5,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-sicl4",
+      "moleculeId": "sicl4",
+      "target": 109.5,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-nh3",
+      "moleculeId": "nh3",
+      "target": 107,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-pcl3",
+      "moleculeId": "pcl3",
+      "target": 100,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-h2o",
+      "moleculeId": "h2o",
+      "target": 104.5,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-h2s",
+      "moleculeId": "h2s",
+      "target": 92,
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "angle-pcl5",
+      "moleculeId": "pcl5",
+      "target": 120,
+      "pair": [
+        2,
+        3
+      ]
+    }
+  ],
+  "axe_build_prompts": [
+    {
+      "id": "axe-co2",
+      "moleculeId": "co2",
+      "sn": 2,
+      "prompt": "Build CO2: central C with 2 bonded atoms. Domains SN=2. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-hcn",
+      "moleculeId": "hcn",
+      "sn": 2,
+      "prompt": "Build HCN: central C with 2 bonded atoms. Domains SN=2. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-bf3",
+      "moleculeId": "bf3",
+      "sn": 3,
+      "prompt": "Build BF3: central B with 3 bonded atoms. Domains SN=3. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-ch2o",
+      "moleculeId": "ch2o",
+      "sn": 3,
+      "prompt": "Build CH2O: central C with 3 bonded atoms. Domains SN=3. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-so2",
+      "moleculeId": "so2",
+      "sn": 3,
+      "prompt": "Build SO2: central S with 2 bonded atoms. Domains SN=3. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-ch4",
+      "moleculeId": "ch4",
+      "sn": 4,
+      "prompt": "Build CH4: central C with 4 bonded atoms. Domains SN=4. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-sicl4",
+      "moleculeId": "sicl4",
+      "sn": 4,
+      "prompt": "Build SiCl4: central Si with 4 bonded atoms. Domains SN=4. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-nh3",
+      "moleculeId": "nh3",
+      "sn": 4,
+      "prompt": "Build NH3: central N with 3 bonded atoms. Domains SN=4. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-pcl3",
+      "moleculeId": "pcl3",
+      "sn": 4,
+      "prompt": "Build PCl3: central P with 3 bonded atoms. Domains SN=4. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-h2o",
+      "moleculeId": "h2o",
+      "sn": 4,
+      "prompt": "Build H2O: central O with 2 bonded atoms. Domains SN=4. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-h2s",
+      "moleculeId": "h2s",
+      "sn": 4,
+      "prompt": "Build H2S: central S with 2 bonded atoms. Domains SN=4. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-pcl5",
+      "moleculeId": "pcl5",
+      "sn": 5,
+      "prompt": "Build PCl5: central P with 5 bonded atoms. Domains SN=5. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-sf4",
+      "moleculeId": "sf4",
+      "sn": 5,
+      "prompt": "Build SF4: central S with 4 bonded atoms. Domains SN=5. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-clf3",
+      "moleculeId": "clf3",
+      "sn": 5,
+      "prompt": "Build ClF3: central Cl with 3 bonded atoms. Domains SN=5. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-xef2",
+      "moleculeId": "xef2",
+      "sn": 5,
+      "prompt": "Build XeF2: central Xe with 2 bonded atoms. Domains SN=5. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-sf6",
+      "moleculeId": "sf6",
+      "sn": 6,
+      "prompt": "Build SF6: central S with 6 bonded atoms. Domains SN=6. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-brf5",
+      "moleculeId": "brf5",
+      "sn": 6,
+      "prompt": "Build BrF5: central Br with 5 bonded atoms. Domains SN=6. Derive X, E, and the molecular shape."
+    },
+    {
+      "id": "axe-xef4",
+      "moleculeId": "xef4",
+      "sn": 6,
+      "prompt": "Build XeF4: central Xe with 4 bonded atoms. Domains SN=6. Derive X, E, and the molecular shape."
+    }
+  ],
+  "geometries": [
+    "linear",
+    "trigonal planar",
+    "bent",
+    "tetrahedral",
+    "trigonal pyramidal",
+    "trigonal bipyramidal",
+    "seesaw",
+    "T-shaped",
+    "octahedral",
+    "square pyramidal",
+    "square planar"
+  ],
+  "counts": {
+    "molecules": 18,
+    "snap_trials": 18,
+    "angle_squeeze_challenges": 12,
+    "axe_build_prompts": 18
+  }
+}
